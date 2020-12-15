@@ -1,0 +1,15 @@
+### Budget of 50€
+GET http://localhost:7071/api/BigBBQ?budget=50 HTTP/1.1
+
+### Budget of 150€
+GET http://localhost:7071/api/BigBBQ?budget=150 HTTP/1.1
+
+### Budget of 450€
+GET http://localhost:7071/api/BigBBQ?budget=450 HTTP/1.1
+
+### Budget of 1000€
+GET http://localhost:7071/api/BigBBQ?budget=1000 HTTP/1.1
+
+### Error: no budget
+GET http://localhost:7071/api/BigBBQ HTTP/1.1
+
